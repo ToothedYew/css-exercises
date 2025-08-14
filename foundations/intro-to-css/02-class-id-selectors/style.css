@@ -1,0 +1,12 @@
+.basic{background-color: #FFB6C1;
+       font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+#first{color: #29009C;
+       font-size: 36px;
+}
+.basic.cooler{font-size: 24px;
+}
+#second{background-color: #ABF757;
+        font-size: 24px;
+        font-weight: bold;
+}
