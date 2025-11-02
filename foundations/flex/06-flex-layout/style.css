@@ -5,7 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 img {
@@ -32,9 +35,11 @@ a {
   padding: 4px;
   margin: 4px;
 }
+
 ul{
   list-style-type: none;
 }
+
 .header{
   display: flex;
   padding: 8px;
@@ -51,8 +56,21 @@ ul{
 
 .content{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+button{
+  padding: 6px;
+  margin-top: 6px;
 }
 
 .footer{
   display: flex;
+  padding: 8px;
+  margin-top: auto;
+  justify-content: space-between;
+  background-color: #eeeeee;
+
 }
